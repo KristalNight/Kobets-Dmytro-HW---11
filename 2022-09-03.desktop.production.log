@@ -1,0 +1,311 @@
+2022-09-03T20:25:40.558Z - error: [main] Error looking for toast activator CLSID in shortcut C:\Users\KristalNight\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub Desktop.lnk
+Error: Failed to read shortcut link
+    at te (C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:38:29)
+    at C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:26:33
+    at C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\notifications.ts:28:32
+    at C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:710:7
+    at Object.<anonymous> (C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:710:7)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-09-03T20:25:40.564Z - error: [main] Error looking for toast activator CLSID in shortcut C:\Users\KristalNight\Desktop\GitHub Desktop.lnk
+Error: Failed to read shortcut link
+    at te (C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:38:29)
+    at C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\lib\find-toast-activator-clsid.ts:26:33
+    at C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\notifications.ts:28:32
+    at C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:710:7
+    at Object.<anonymous> (C:\Users\KristalNight\AppData\Local\SquirrelTemp\webpack:\[name]\app\src\main-process\main.ts:710:7)
+    at Module._compile (node:internal/modules/cjs/loader:1116:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1169:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at Function.c._load (node:electron/js2c/asar_bundle:5:13331)
+2022-09-03T20:25:40.564Z - error: [main] Toast activator CLSID not found in any of the shortcuts. Falling back to known CLSIDs.
+2022-09-03T20:25:40.564Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-09-03T20:25:42.073Z - info: [main] Received possible protocol arguments: 2
+2022-09-03T20:25:42.076Z - error: [main] Malformed launch arguments received: C:\Users\KristalNight\AppData\Local\GitHubDesktop\app-3.0.7\GitHubDesktop.exe,--squirrel-firstrun
+2022-09-03T20:25:42.076Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-09-03T20:25:42.604Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-09-03T20:25:42.706Z - info: [ui] launching: 3.0.7 (Windows 10.0.19044)
+2022-09-03T20:25:42.708Z - info: [ui] execPath: 'C:\Users\KristalNight\AppData\Local\GitHubDesktop\app-3.0.7\GitHubDesktop.exe'
+2022-09-03T20:25:42.783Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-09-03T20:25:42.995Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-09-03T20:25:43.163Z - info: [ui] Opt in reported.
+2022-09-03T20:25:44.134Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.428s)
+2022-09-03T20:25:48.549Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2022-09-03T20:25:48.550Z - info: [ui] [SignInStore] initializing OAuth flow
+2022-09-03T20:25:48.551Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=404fd5c1-8b0e-4ed3-aff0-80247a31eba6
+2022-09-03T20:25:48.551Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2022-09-03T20:26:00.725Z - info: [main] Received possible protocol arguments: 4
+2022-09-03T20:26:00.727Z - info: [main] Processing protocol url
+2022-09-03T20:26:00.727Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-09-03T20:26:00.735Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-09-03T20:26:00.741Z - info: [ui] [Dispatcher] requesting authenticated user
+2022-09-03T20:26:00.912Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2022-09-03T20:26:02.072Z - info: [ui] [SignInStore] account resolved
+2022-09-03T20:26:02.072Z - info: [ui] [AppStore] adding account KristalNight (KristalNight) to store
+2022-09-03T20:26:02.076Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2022-09-03T20:26:02.214Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-09-03T20:26:02.330Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2022-09-03T20:26:02.569Z - info: [ui] Subscribed 'KristalNight' to Alive channel
+2022-09-03T20:27:41.190Z - info: [ui] [AppStore] adding repository at C:\GH\Kobets-Dmytro-HW---11--Git- to store
+2022-09-03T20:27:42.721Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.279s)
+2022-09-03T20:27:59.688Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.3s of which 0.0s paused, total 0.3s
+2022-09-03T20:28:08.037Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 2.150s)
+2022-09-03T20:28:09.285Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.242s)
+2022-09-03T20:28:10.581Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.296s)
+2022-09-03T20:29:31.929Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:29:33.888Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.955s)
+2022-09-03T20:39:09.438Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-09-03T20:39:10.830Z - info: [ui] [AppStore] loading 1 repositories from store
+2022-09-03T20:39:10.832Z - info: [ui] [AppStore] found account: KristalNight (KristalNight)
+2022-09-03T20:39:11.105Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2022-09-03T20:39:11.277Z - info: [ui] launching: 3.0.7 (Windows 10.0.19044)
+2022-09-03T20:39:11.279Z - info: [ui] execPath: 'C:\Users\KristalNight\AppData\Local\GitHubDesktop\app-3.0.7\GitHubDesktop.exe'
+2022-09-03T20:39:11.434Z - info: [ui] Subscribed 'KristalNight' to Alive channel
+2022-09-03T20:39:11.712Z - info: [ui] Stats reported.
+2022-09-03T20:39:17.184Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:39:18.728Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.242s)
+2022-09-03T20:39:18.729Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:39:58.328Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:39:59.824Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.190s)
+2022-09-03T20:39:59.825Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:40:01.072Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.246s)
+2022-09-03T20:41:02.159Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:41:03.673Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.212s)
+2022-09-03T20:41:03.674Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:41:26.640Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:41:28.152Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.210s)
+2022-09-03T20:41:28.153Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:42:03.580Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-
+2022-09-03T20:43:35.516Z - info: [ui] [BranchPruner] Last prune took place 15 minutes ago - skipping
+2022-09-03T20:43:42.759Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:43:42.925Z - error: [ui] `git -c credential.helper= checkout --progress origin/main -b main --` exited with an unexpected code: 1.
+stderr:
+error: The following untracked working tree files would be overwritten by checkout:
+	.gitattributes
+Please move or remove them before you switch branches.
+Aborting
+
+(The error was parsed as 37: Unable to switch branches as there are working directory changes which would be overwritten. Please commit or stash your changes.)
+2022-09-03T20:43:43.248Z - info: [ui] [createDesktopStashEntry] a stash was created successfully but exit code 1 reported. stderr: You do not have the initial commit yet
+
+2022-09-03T20:43:44.694Z - info: [ui] [Timing] Action 'checkout branch from list' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 1.936s
+2022-09-03T20:43:49.656Z - info: [ui] [Timing] Action 'create commit' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 1.006s
+2022-09-03T20:43:52.265Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:43:53.992Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.429s)
+2022-09-03T20:43:53.993Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+remote: Enumerating objects: 4, done.        
+remote: Counting objects:  25% (1/4)        remote: Counting objects:  50% (2/4)        remote: Counting objects:  75% (3/4)        remote: Counting objects: 100% (4/4)        remote: Counting objects: 100% (4/4), done.        
+remote: Compressing objects:  33% (1/3)        remote: Compressing objects:  66% (2/3)        remote: Compressing objects: 100% (3/3)        remote: Compressing objects: 100% (3/3), done.        
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0        
+From https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-
+   ac98ad3..091bfe1  main       -> origin/main
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:45:37.939Z - info: [main] opening in browser: https://code.visualstudio.com
+2022-09-03T20:49:31.581Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:49:33.097Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.207s)
+2022-09-03T20:49:33.099Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:49:34.111Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.002s)
+2022-09-03T20:50:58.142Z - info: [ui] [Timing] Action 'create commit' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 1.053s
+2022-09-03T20:51:06.482Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:51:07.989Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.203s)
+2022-09-03T20:51:07.990Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:51:09.112Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.120s)
+2022-09-03T20:55:05.310Z - info: [ui] [Timing] Action 'create commit' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 1.060s
+2022-09-03T20:56:29.452Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:56:30.986Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.228s)
+2022-09-03T20:56:30.987Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:56:40.469Z - info: [ui] [Timing] Action 'checkout branch from list' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 0.000s
+2022-09-03T20:56:42.805Z - info: [ui] [Timing] Action 'checkout branch from list' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 0.000s
+2022-09-03T20:57:48.397Z - info: [ui] [Timing] Action 'create commit' for 'KristalNight/Kobets-Dmytro-HW---11--Git-' took 1.219s
+2022-09-03T20:57:59.876Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:58:01.451Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.261s)
+2022-09-03T20:58:01.452Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:58:02.468Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.016s)
+2022-09-03T20:58:06.247Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:58:07.083Z - error: [ui] `git -c credential.helper= push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-03T20:58:25.183Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:58:26.242Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.052s)
+2022-09-03T20:58:30.776Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:58:32.320Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.237s)
+2022-09-03T20:58:32.321Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:58:33.336Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.014s)
+2022-09-03T20:58:48.454Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-
+2022-09-03T20:59:17.510Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T20:59:19.044Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.224s)
+2022-09-03T20:59:19.045Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T20:59:20.148Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.102s)
+2022-09-03T21:01:20.652Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-/issues/new/choose
+2022-09-03T21:01:33.911Z - info: [ui] [BranchPruner] Last prune took place 33 minutes ago - skipping
+2022-09-03T21:01:41.350Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T21:01:43.001Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.339s)
+2022-09-03T21:01:43.002Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T21:01:44.172Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.169s)
+2022-09-03T21:01:46.611Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T21:01:47.426Z - error: [ui] `git -c credential.helper= push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-09-03T21:01:49.394Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T21:01:50.591Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.188s)
+2022-09-03T21:01:51.592Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.001s)
+2022-09-03T21:01:56.076Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11--Git- - KristalNight (has token)
+2022-09-03T21:01:57.617Z - info: [ui] Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 1.228s)
+2022-09-03T21:01:57.618Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 128.
+stderr:
+fatal: refusing to merge unrelated histories
+
+(The error was parsed as 29: Unable to merge unrelated histories in this repository.)
+2022-09-03T21:01:58.629Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.011s)
+2022-09-03T21:03:28.789Z - info: [main] Received possible protocol arguments: 4
+2022-09-03T21:03:28.791Z - info: [main] Processing protocol url
+2022-09-03T21:03:33.688Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-.git - KristalNight (has token)
+2022-09-03T21:03:37.892Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/KristalNight/Kobets-Dmytro-HW---11--Git-.git C:\GH\Kobets-Dmytro-HW---11--Git- (took 4.202s)
+2022-09-03T21:03:38.049Z - info: [ui] [AppStore] adding repository at C:\GH\Kobets-Dmytro-HW---11--Git- to store
+2022-09-03T21:03:38.613Z - info: [ui] [BranchPruner] Last prune took place 35 minutes ago - skipping
+2022-09-03T21:03:39.798Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.533s)
+2022-09-03T21:03:41.123Z - info: [ui] [BranchPruner] Last prune took place 35 minutes ago - skipping
+2022-09-03T21:06:30.654Z - info: [ui] [AppStore] adding repository at C:\GH\Kobets-Dmytro-HW---11- to store
+2022-09-03T21:08:49.138Z - info: [ui] [Timing] Action 'create branch' for 'Kobets-Dmytro-HW---11-' took 0.718s
+2022-09-03T21:08:54.443Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open 'C:\GH\Kobets-Dmytro-HW---11-\3е_pic.jpg'
+2022-09-03T21:08:55.581Z - info: [ui] [Timing] Action 'stash and checkout' for 'Kobets-Dmytro-HW---11-' took 2.304s
+2022-09-03T21:09:02.991Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Kobets-Dmytro-HW---11-' took 1.637s
+2022-09-03T21:09:11.656Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Kobets-Dmytro-HW---11-' took 1.586s
+2022-09-03T21:09:15.180Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Kobets-Dmytro-HW---11-' took 1.599s
+2022-09-03T21:09:41.773Z - info: [ui] [Timing] Action 'create branch' for 'Kobets-Dmytro-HW---11-' took 2.340s
+2022-09-03T21:10:12.918Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Kobets-Dmytro-HW---11-' took 1.685s
+2022-09-03T21:10:42.874Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.3s of which 0.0s paused, total 0.3s
+2022-09-03T21:10:50.445Z - info: [ui] [Timing] Action 'create commit' for 'Kobets-Dmytro-HW---11-' took 1.046s
+2022-09-03T21:11:01.061Z - info: [ui] [AppStore. _popStashEntry] popped stash with commit id 8233b9dde39b4fb29a2353be6774c202bcc192f0
+2022-09-03T21:11:30.771Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 1.420s)
+2022-09-03T21:11:40.401Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:11:53.453Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11-
+2022-09-03T21:16:17.624Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-09-03T21:16:18.188Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-09-03T21:16:18.188Z - info: [ui] [AppStore] found account: KristalNight (KristalNight)
+2022-09-03T21:16:18.335Z - info: [ui] [BranchPruner] Last prune took place 5 minutes ago - skipping
+2022-09-03T21:16:18.371Z - info: [ui] launching: 3.0.7 (Windows 10.0.19044)
+2022-09-03T21:16:18.373Z - info: [ui] execPath: 'C:\Users\KristalNight\AppData\Local\GitHubDesktop\app-3.0.7\GitHubDesktop.exe'
+2022-09-03T21:16:18.871Z - info: [ui] Subscribed 'KristalNight' to Alive channel
+2022-09-03T21:16:25.051Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:16:28.858Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:16:32.770Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:17:02.450Z - error: [main] Call to openExternal failed: 'Error: Failed to open'
+2022-09-03T21:17:50.379Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:17:52.966Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:18:03.211Z - info: [ui] [BranchPruner] Last prune took place 6 minutes ago - skipping
+2022-09-03T21:18:04.646Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2022-09-03T21:18:41.630Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:18:46.754Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:18:51.106Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11-
+2022-09-03T21:19:25.785Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2022-09-03T21:19:53.085Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2022-09-03T21:20:13.864Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Kobets-Dmytro-HW---11- - KristalNight (has token)
+2022-09-03T21:23:04.222Z - info: [main] opening in browser: https://code.visualstudio.com
+2022-09-03T21:23:59.392Z - info: [ui] [BranchPruner] Last prune took place 12 minutes ago - skipping
+2022-09-03T21:24:42.819Z - info: [ui] [BranchPruner] Last prune took place 13 minutes ago - skipping
+2022-09-03T21:24:44.909Z - info: [ui] [BranchPruner] Last prune took place 13 minutes ago - skipping
+2022-09-03T21:31:40.703Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2022-09-03T21:31:41.174Z - info: [ui] [AppStore] loading 1 repositories from store
+2022-09-03T21:31:41.175Z - info: [ui] [AppStore] found account: KristalNight (KristalNight)
+2022-09-03T21:31:41.297Z - info: [ui] [BranchPruner] Last prune took place 20 minutes ago - skipping
+2022-09-03T21:31:41.341Z - info: [ui] launching: 3.0.7 (Windows 10.0.19044)
+2022-09-03T21:31:41.342Z - info: [ui] execPath: 'C:\Users\KristalNight\AppData\Local\GitHubDesktop\app-3.0.7\GitHubDesktop.exe'
+2022-09-03T21:31:41.675Z - info: [ui] Subscribed 'KristalNight' to Alive channel
+2022-09-03T21:32:09.438Z - info: [ui] Executing tutorial:push: git push -u origin main (took 17.617s)
+2022-09-03T21:32:09.469Z - info: [ui] [AppStore] adding tutorial repository at C:\GH\desktop-tutorial to store
+2022-09-03T21:32:09.762Z - info: [ui] Current tutorial step is now PickEditor
+2022-09-03T21:32:20.163Z - info: [main] opening in browser: https://atom.io
+2022-09-03T21:32:30.235Z - info: [main] opening in browser: https://code.visualstudio.com
+2022-09-03T21:33:37.276Z - info: [ui] Current tutorial step is now CreateBranch
+2022-09-03T21:33:49.516Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: desktop-tutorial - KristalNight (has token)
+2022-09-03T21:33:49.795Z - info: [ui] Current tutorial step is now EditFile
+2022-09-03T21:33:49.795Z - info: [ui] [Timing] Action 'create branch' for 'KristalNight/desktop-tutorial' took 0.420s
+2022-09-03T21:34:51.269Z - info: [ui] Current tutorial step is now MakeCommit
+2022-09-03T21:36:56.107Z - info: [ui] [Timing] Action 'create commit' for 'KristalNight/desktop-tutorial' took 0.277s
+2022-09-03T21:36:56.353Z - info: [ui] Current tutorial step is now PushBranch
+2022-09-03T21:37:01.839Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: desktop-tutorial - KristalNight (has token)
+2022-09-03T21:37:02.854Z - info: [ui] Executing push: git -c credential.helper= push origin Vetka --set-upstream --progress (took 1.008s)
+2022-09-03T21:37:04.732Z - info: [ui] Current tutorial step is now OpenPullRequest
+2022-09-03T21:37:22.361Z - info: [main] opening in browser: https://github.com/KristalNight/desktop-tutorial/pull/new/Vetka
+2022-09-03T21:37:22.373Z - info: [ui] Current tutorial step is now AllDone
+2022-09-03T21:37:33.269Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: desktop-tutorial - KristalNight (has token)
+2022-09-03T21:37:38.485Z - info: [main] opening in browser: https://github.com/KristalNight/desktop-tutorial/pull/new/Vetka
+2022-09-03T21:39:05.500Z - info: [ui] [AppStore] adding repository at C:\GH\Kobets-Dmytro-HW---11 to store
+2022-09-03T21:41:26.647Z - info: [ui] [Timing] Action 'create branch' for 'Kobets-Dmytro-HW---11' took 0.136s
+2022-09-03T21:41:32.623Z - info: [ui] [Timing] Action 'stash and checkout' for 'Kobets-Dmytro-HW---11' took 0.319s
+2022-09-03T21:41:34.840Z - info: [ui] [Timing] Action 'create commit' for 'Kobets-Dmytro-HW---11' took 0.257s
+2022-09-03T21:43:19.700Z - info: [ui] [Timing] Action 'create commit' for 'Kobets-Dmytro-HW---11' took 0.287s
+2022-09-03T21:43:52.514Z - info: [ui] [Timing] Action 'create commit' for 'Kobets-Dmytro-HW---11' took 0.291s
+2022-09-03T21:44:33.495Z - info: [ui] Executing push: git -c credential.helper= push origin Mem --set-upstream --progress (took 1.083s)
+2022-09-03T21:44:37.913Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11
+2022-09-03T21:49:04.967Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2022-09-03T21:49:59.330Z - info: [main] opening in browser: https://github.com/KristalNight/Kobets-Dmytro-HW---11
